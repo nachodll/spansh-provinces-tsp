@@ -1,6 +1,6 @@
 # spanish-provinces-tsp
 
-Find the fastest (heuristic) cycle to visit all towns in a certain sapanish province. 
+Find the fastest (heuristic) cycle to visit all towns in a certain spanish province and draw the graph and path as a map.
 1. It uses ***town_names.txt*** as input with the names of all towns in the province.
     - **preprocessing_script.py** is used to format the data in case names are separated by commas or whitespaces.
 2. It uses **networkx** to model a graph with all the towns, their respective position and the distance between all of them.

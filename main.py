@@ -1,6 +1,7 @@
 import os
 import math
 import googlemaps
+from config import MAP_API_KEY
 import networkx as nx
 import matplotlib.pyplot as plt
 import time
@@ -10,7 +11,6 @@ TOWN_POSITIONS_FILE = 'town_positions.txt'
 TOWN_DIRECTIONS_FILE = 'town_directions.txt'
 PROVINCE_NAME = 'Málaga'
 EARTH_RADIUS = 6371000
-MAP_API_KEY = 'AIzaSyCLJjieb9r0FPiHXnwI9-uwlkytBHdrVoQ'
 
 gmaps = googlemaps.Client(key=MAP_API_KEY)
 

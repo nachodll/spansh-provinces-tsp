@@ -1,3 +1,4 @@
 .vscode
 town_directions.txt
 town_positions.txt
+config.py
