@@ -115,7 +115,7 @@ def create_graph():
 
     # Draw node labels
     node_labels = {k:(v[0], v[1] + 40000) for (k,v) in pos.items()}
-    nx.draw_networkx_labels(G, node_labels, font_size=7, font_family="sans-serif")
+    nx.draw_networkx_labels(G, node_labels, font_size=6, font_family="sans-serif")
 
     # Traveling salesman problem heuristic solution
     tsp = nx.approximation.traveling_salesman_problem
